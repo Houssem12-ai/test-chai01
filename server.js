@@ -83,7 +83,7 @@ app.get('/_api/get-tests', cors(), function (req, res, next) {
 
 
 app.listen(3011, function () {
-  console.log("Listening on port " + 3000);
+  console.log("Listening on port " +3011);
   console.log('Running Tests...');
   setTimeout(function () {
     try {
